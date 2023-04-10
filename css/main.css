@@ -1,0 +1,90 @@
+@import url(/css/fonts.css);
+
+body {
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+
+.bg-color-image {
+    background-color: #EDF4F7;
+    background-image: url(/img/accolade-line-bg.svg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 72%;
+}
+
+.nav-item a {
+    font-family: 'Gotham';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Trump Gothic Pro';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Trump Gothic Pro';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Gotham';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.number-count {
+    color: #AFC5CF;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+}
+
+.btn-special {
+    font-family: Gotham;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0;
+}
+
+.btn-special:hover {
+    background-color: #40bfef;
+    border-radius: 0px;
+    padding: 0px 8px 0px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .ms-n5 {
+        margin-left: -3rem;
+    }
+    .background-half-page {
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 50%, transparent 50%, transparent 100%);
+    }
+    .img-max-width {
+        max-width: 116%;
+    }
+}
